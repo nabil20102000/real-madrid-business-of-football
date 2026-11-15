@@ -1,0 +1,35 @@
+# Real Madrid Football Analytics - Python Dependencies
+
+# Data manipulation and analysis
+pandas
+numpy
+
+# Data collection and APIs
+requests
+
+# Data visualization
+matplotlib
+seaborn
+plotly
+
+# Excel integration
+openpyxl
+xlsxwriter
+
+# Database connectivity
+sqlalchemy
+psycopg2-binary
+
+# Statistical analysis
+scipy
+statsmodels
+
+# Jupyter Notebook support
+jupyter
+ipykernel
+
+# Data validation
+pandera
+
+# Date and time handling
+python-dateutil
