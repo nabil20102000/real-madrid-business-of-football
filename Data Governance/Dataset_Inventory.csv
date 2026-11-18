@@ -1,0 +1,14 @@
+﻿dataset_file,records,coverage,status,limitations
+Real_Madrid_All_Matches.csv,630,2015-16 baseline + 2016-17 to 2025-26,Populated; 630 records; 629 played + 1 cancelled,Real Madrid fixtures/events only; opponents retained as match context; 14 CWC matches integrated.
+Real_Madrid_Match_Team_Stats.csv,630,2015-16 baseline + 2016-17 to 2025-26,Populated; 630 rows,616 Sports Reference team match logs; 14 CWC rows have result context but no matching FBref team log; not player-level stats.
+Real_Madrid_Player_Season_Stats.csv,386,2015-16 baseline + 2016-17 to 2025-26,Populated; corrected 2022-23 replacement; provisional IDs added,Season aggregates; generated name-based player IDs are provisional; no full competition split.
+Real_Madrid_Player_Competition_Stats.csv,345,2015-16 baseline + 2016-17 to 2025-26,Populated; provisional IDs added,Copa del Rey and CWC 2022/2025 coverage; not full La Liga/UCL competition splits.
+Real_Madrid_Player_Match_Stats.csv,0,Not available from supplied files,Schema only — intentionally unpopulated,"Sports Reference md files are team match logs, not player-by-match data."
+Real_Madrid_Transfers.csv,214,2015-16 baseline + 2016-17 to 2025-26,Populated; 214 transaction rows,Transfermarkt overview; exact dates absent; 91 numeric fees missing/undisclosed; fee statuses preserved.
+Real_Madrid_Player_ID_Crosswalk.csv,158,"All player names found in season, competition and transfer datasets",Populated; provisional IDs,Name-derived IDs; not official source identifiers; aliases need review.
+Real_Madrid_Financials.csv,204,2015-16 baseline + 2016-17 to 2025-26,Populated; 204 metric rows,Reporting scope changes across years; 2025-26 announcement/budget separated from audited accounts.
+Real_Madrid_Trophies.csv,22,2015-16 baseline + 2016-17 to 2025-26,Populated; derived records,Verify against official honours before final publication.
+Real_Madrid_La_Liga_Standings.csv,11,2015-16 baseline + 2016-17 to 2025-26,Populated; 11 rows,Derived from full La Liga match files; verify against official tables.
+Source_Register.csv,14,All sources represented in current master package,Updated; 14 source entries,Some exact original URLs and access dates remain unavailable.
+Data_Quality_Log.csv,33,All audited master datasets,Updated,Open findings remain; see status column.
+README_Master_Datasets.md,1,Current package,Updated,"Explains coverage, joins, known limitations and raw-data preservation."
