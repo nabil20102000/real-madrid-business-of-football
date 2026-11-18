@@ -12,9 +12,12 @@ venv/
 secrets.json
 credentials.json
 
-# Data files
-Data/Raw/*
-Data/External/*
+# Raw and external datasets
+Data/Raw/**
+!Data/Raw/.gitkeep
+
+Data/External/**
+!Data/External/.gitkeep
 
 # Temporary files
 *.tmp
