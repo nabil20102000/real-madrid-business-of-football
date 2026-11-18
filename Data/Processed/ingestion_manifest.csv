@@ -1,0 +1,11 @@
+﻿dataset,filename,rows,columns,missing_cells,duplicate_key_rows,missing_required_columns,status
+matches,Real_Madrid_All_Matches.csv,630,47,7834,0.0,,LOADED
+match_team_stats,Real_Madrid_Match_Team_Stats.csv,630,30,2844,0.0,,LOADED
+player_season_stats,Real_Madrid_Player_Season_Stats.csv,386,29,945,,,LOADED
+player_competition_stats,Real_Madrid_Player_Competition_Stats.csv,345,115,20136,,,LOADED
+player_match_stats,Real_Madrid_Player_Match_Stats.csv,0,31,0,,,EMPTY TEMPLATE
+transfers,Real_Madrid_Transfers.csv,214,25,1272,0.0,,LOADED
+player_id_crosswalk,Real_Madrid_Player_ID_Crosswalk.csv,158,6,0,0.0,,LOADED
+financials,Real_Madrid_Financials.csv,204,14,205,,,LOADED
+trophies,Real_Madrid_Trophies.csv,22,12,4,0.0,,LOADED
+la_liga_standings,Real_Madrid_La_Liga_Standings.csv,11,16,0,,,LOADED

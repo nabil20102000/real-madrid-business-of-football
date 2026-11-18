@@ -1,0 +1,10 @@
+{
+    "project": "Real Madrid: The Business of Football",
+    "phase": "4.1 \u2014 Data Ingestion",
+    "run_date_utc": "2026-11-18T19:48:24.124103+00:00",
+    "datasets_expected": 10,
+    "datasets_loaded": 10,
+    "datasets_failed": 0,
+    "datasets_with_schema_errors": 0,
+    "source_files_modified": false
+}
